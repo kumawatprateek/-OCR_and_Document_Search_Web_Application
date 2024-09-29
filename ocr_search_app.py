@@ -58,3 +58,6 @@ if uploaded_image:
         search_result = search_keywords(extracted_text, keyword)
         st.write(f"Search Result: {search_result}")
 
+
+# Add copyright message
+st.write("© 2024 Made by Prateek")
