@@ -8,6 +8,15 @@ This project is a **Streamlit** web application that allows users to upload imag
 - **Keyword Search**: Allows users to search for specific keywords within the extracted text, utilizing Huggingface Transformers' `distilbert-base-cased-distilled-squad` model for question-answering.
 - **Simple Interface**: Streamlit-powered interface for easy interaction.
 
+
+## Screenshots
+
+### Home Page
+![Home Page](./DemoImage/home.png)
+
+### Output Example
+![Output Example](./images/output_screenshot.png)
+
 ## Live Demo
 
 You can access the live version of this app [here](your-streamlit-app-url).
