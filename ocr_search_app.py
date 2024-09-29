@@ -63,6 +63,7 @@
 # st.write("© 2024 Made by Prateek")
 
 
+
 import streamlit as st
 import easyocr
 import numpy as np
@@ -72,8 +73,8 @@ from transformers import pipeline
 # Load EasyOCR Reader for Hindi and English
 reader = easyocr.Reader(['hi', 'en'])
 
-# Load a Huggingface Transformers model for question-answering (uses PyTorch by default)
-qa_pipeline = pipeline('question-answering', model='distilbert-base-cased-distilled-squad')
+# Force Huggingface Transformers to use PyTorch explicitly
+qa_pipeline = pipeline('question-answering', model='distilbert-base-cased-distilled-squad', framework='pt')
 
 # Function to perform OCR on the image
 def ocr_image(uploaded_image):
@@ -85,7 +86,7 @@ def ocr_image(uploaded_image):
     result = reader.readtext(image_np, detail=0, paragraph=True)
     return " ".join(result)
 
-# Function to search keywords in extracted text using the question answering pipeline
+# Function to search keywords in extracted text using the question-answering pipeline
 def search_keywords(extracted_text, keyword):
     # We are using Huggingface's QA model for a text search
     search_result = qa_pipeline({
@@ -124,4 +125,3 @@ if uploaded_image:
 
 # Add copyright message
 st.write("© 2024 Made by Prateek")
-
