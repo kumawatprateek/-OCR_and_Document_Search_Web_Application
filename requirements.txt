@@ -1,5 +1,5 @@
-streamlit
+streamlit==1.36.0
 easyocr
 torch
-transformers==4.45.1
-Pillow==10.1.0
+transformers
+Pillow
