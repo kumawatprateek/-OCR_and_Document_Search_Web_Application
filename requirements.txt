@@ -1,7 +1,5 @@
 streamlit
 easyocr
-numpy
-Pillow
-tensorflow
+torch
 transformers
-torch # Required by EasyOCR
+pillow
