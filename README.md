@@ -16,10 +16,10 @@ This project is a **Streamlit** web application that allows users to upload imag
 
 ### Output Example
 #Extricted Text Image Output
-|[Output Example](./DemoImages/ExtrictedTextImage.jpg)
+![Output Example](./DemoImages/ExtrictedTextImage.jpg)
 
 #Search Keyword Output
-|[Output Example](./DemoImages/output.jpg)
+![Output Example](./DemoImages/output.jpg)
 
 ## Live Demo
 
