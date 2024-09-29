@@ -1,6 +1,7 @@
 streamlit
 easyocr
-tensorflow
+tensorflow==2.12
 transformers
-pillow
 torch
+pillow
+tf-keras
