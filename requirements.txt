@@ -1,7 +1,7 @@
 streamlit
 easyocr
-tensorflow==2.12
+numpy
+Pillow
+tensorflow
 transformers
-torch
-pillow
-tf-keras
+torch # Required by EasyOCR
