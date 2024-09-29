@@ -12,10 +12,10 @@ This project is a **Streamlit** web application that allows users to upload imag
 ## Screenshots
 
 ### Home Page
-![Home Page](./DemoImage/home.png)
+![Home Page](./DemoImages/Home.png)
 
 ### Output Example
-![Output Example](./images/output_screenshot.png)
+![Output Example](./DemoImages/Output.png)
 
 ## Live Demo
 
