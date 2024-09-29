@@ -19,7 +19,10 @@ This project is a **Streamlit** web application that allows users to upload imag
 
 ## Live Demo
 
-You can access the live version of this app [here](your-streamlit-app-url).
+You can access the live version of this app [here](https://ocranddocumentsearchwebapplication-tot3a5evkcegsscgdtpb2d.streamlit.app/).
+
+## Linkedin Post Link
+[here](https://www.linkedin.com/posts/kumawatprateek_ai-ocr-nlp-activity-7246145305958641664-Z54e?utm_source=share&utm_medium=member_desktop).
 
 ## Installation
 
