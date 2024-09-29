@@ -15,6 +15,7 @@ This project is a **Streamlit** web application that allows users to upload imag
 ![Home Page](./DemoImages/Home.jpg)
 
 ### Output Example
+![Output Example](./DemoImages/ExtrictedTextImage.jpg)
 ![Output Example](./DemoImages/output.jpg)
 
 ## Live Demo
